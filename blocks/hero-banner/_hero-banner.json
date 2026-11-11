@@ -11,12 +11,12 @@
               "name": "Hero Banner",
               "model": "hero-banner",
               "backgroundImage": "",
-              "altText": "",
+              "backgroundImageAlt": "",
               "headline": "",
               "subtext": "",
               "ctaLabel": "",
               "ctaLink": "/",
-              "alignment": ""
+              "classes": ""
             }
           }
         }
@@ -36,7 +36,7 @@
         },
         {
           "component": "text",
-          "name": "altText",
+          "name": "backgroundImageAlt",
           "label": "Alt Text",
           "valueType": "string",
           "required": true
@@ -70,10 +70,14 @@
         },
         {
           "component": "select",
-          "name": "alignment",
+          "name": "classes",
           "label": "Alignment",
           "valueType": "string",
-          "required": true
+          "options": [
+            { "name": "Left", "value": "left" },
+            { "name": "Center", "value": "center" },
+            { "name": "Right", "value": "right" }
+        ]
         }
       ]
     }

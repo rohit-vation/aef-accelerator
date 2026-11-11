@@ -153,12 +153,12 @@
                   "name": "Hero Banner",
                   "model": "hero-banner",
                   "backgroundImage": "",
-                  "altText": "",
+                  "backgroundImageAlt": "",
                   "headline": "",
                   "subtext": "",
                   "ctaLabel": "",
                   "ctaLink": "/",
-                  "alignment": ""
+                  "classes": ""
                 }
               }
             }
